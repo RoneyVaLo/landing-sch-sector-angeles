@@ -110,7 +110,7 @@ export function TimelineSection() {
                   className="group relative pb-10 last:pb-0"
                 >
                   {/* Dot */}
-                  <div className="absolute -left-[41px] flex h-10 w-10 items-center justify-center rounded-full border-4 border-card bg-primary shadow-lg">
+                  <div className="absolute -left-10.25 flex h-10 w-10 items-center justify-center rounded-full border-4 border-card bg-primary shadow-lg">
                     <span className="text-xs font-bold text-primary-foreground">
                       {milestone.year.slice(-2)}
                     </span>
